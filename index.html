@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Matcher | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Resume Matcher</h2>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="results.html">Results</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>Resume & Job Description Matcher</h1>
+
+    <!-- Resume Upload -->
+    <section class="upload-section">
+      <h3>Upload Your Resume (PDF)</h3>
+      <input type="file" id="resumeUpload" accept=".pdf" />
+    </section>
+
+    <!-- Job Description Input -->
+    <section class="jd-section">
+      <h3>Enter Job Description</h3>
+      <textarea id="jobDescription" rows="10" placeholder="Paste the job description here..."></textarea>
+    </section>
+
+    <!-- Analyze Button -->
+    <section class="analyze-section">
+      <button id="analyzeBtn">Analyze</button>
+    </section>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/analyze.js"></script>
+</body>
+</html>
